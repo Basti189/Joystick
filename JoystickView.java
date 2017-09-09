@@ -132,7 +132,7 @@ public class JoystickView extends View {
 					m_touch_x = eventX - m_dragStart_x;
 					m_touch_y = 0;
 					break;
-				case 4: default:
+				case 3: default:
 					m_touch_x = 0;
 					m_touch_y = 0;
 			}
